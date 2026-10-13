@@ -9,7 +9,7 @@ Sistema de visão computacional para a FarmTech Solutions: detecção de **capac
 | Item | Onde |
 |---|---|
 | Notebook com as Entregas 1 e 2 (código executado, saídas e análises) | [`WillianKaueTobiasDoCarmo_rm570038_pbl_fase6.ipynb`](./WillianKaueTobiasDoCarmo_rm570038_pbl_fase6.ipynb) · [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willktdc/grupo64-fiap-fase6/blob/main/WillianKaueTobiasDoCarmo_rm570038_pbl_fase6.ipynb) |
-| Vídeo demonstrativo (até 5 min, não listado) | [YouTube](LINK_DO_VIDEO) |
+| Vídeo demonstrativo (até 5 min, não listado) | [YouTube](https://youtu.be/nH-3fWDhFdQ) |
 | Dataset (80 imagens, splits, rótulos, créditos) | [`dataset/`](./dataset) |
 | Figuras geradas (curvas, matrizes de confusão, prints das detecções) | [`results/`](./results) |
 
