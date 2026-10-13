@@ -1,0 +1,5 @@
+abordagem,facilidade,acerto_por_imagem_teste,mAP50_teste,treino_min,inferencia_ms_por_imagem
+YOLOv5 custom 30 ép.,"Média: exige dataset rotulado com caixas, mas o pipeline train/val/detect da YOLOv5 é pronto",0.75,0.8917391304347826,15.326621174812317,141.4
+YOLOv5 custom 60 ép.,"Média: exige dataset rotulado com caixas, mas o pipeline train/val/detect da YOLOv5 é pronto",1.0,0.995,29.834372580051422,143.7
+YOLO padrão (COCO),"Alta: nenhum treino, nenhum rótulo; só funciona para classes que o COCO conhece",0.5,,0.0,177.0
+CNN do zero,"Alta para rotular (só o nome da classe), baixa para generalizar; não localiza o objeto",0.75,,0.4831933458646139,67.99525022506714
