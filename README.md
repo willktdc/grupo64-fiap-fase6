@@ -15,7 +15,7 @@ Sistema de visão computacional para a FarmTech Solutions: detecção de **capac
 
 ## Resultado em uma linha
 
-> [PREENCHER após executar] Ex.: a YOLOv5 customizada com 60 épocas atingiu mAP@0.5 de 0,xx no conjunto de teste e reconheceu x/8 imagens; a YOLO padrão acertou apenas os celulares (4/8), por não conhecer a classe capacete; a CNN do zero classificou x/8.
+> A **YOLOv5 customizada com 60 épocas** atingiu mAP@0.5 de **0,995** no conjunto de teste e reconheceu **8/8** imagens sem falsos positivos (com 30 épocas: mAP@0.5 de 0,892 e 6/8, falhando nos capacetes atípicos). A **YOLO padrão** (COCO, sem treino) acertou apenas os celulares (**4/8**), por não conhecer a classe capacete; a **CNN treinada do zero** classificou **6/8**, errando por contexto de cena. Execução registrada em CPU: 15 e 30 min de treino; ~140 ms por imagem na inferência.
 
 ![Detecções nas imagens de teste](results/testes_detectados_60ep.png)
 
@@ -41,11 +41,11 @@ O notebook é o relatório completo, com o passo a passo e os resultados comenta
 ├── WillianKaueTobiasDoCarmo_rm570038_pbl_fase6.ipynb
 ├── dataset/
 │   ├── images/{train,val,test}/          64 / 8 / 8 imagens (celular_*.jpg, capacete_*.jpg)
-│   ├── labels/{train,val,test}/          rótulos criados no Make Sense (formato YOLO)
+│   ├── labels/{train,val,test}/          rótulos exportados do Make Sense (formato YOLO)
 │   ├── gabarito_openimages/{...}/        caixas oficiais do Open Images, usadas só para conferência
 │   ├── manifesto.csv                     arquivo, classe, split, ID de origem, caixa oficial, autor, licença
 │   └── CREDITOS.md                       atribuição imagem a imagem
-└── results/                              figuras geradas pelo notebook
+└── results/                              figuras e tabelas geradas pelo notebook (curvas, matrizes, prints das detecções)
 ```
 
 ## Créditos e licenças
